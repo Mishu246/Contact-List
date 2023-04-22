@@ -1,0 +1,54 @@
+body{
+    margin:0;
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 2%;
+    background-color: rgb(134, 192, 192);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#header{
+    font-weight: bold;
+    font-size: 4rem;
+    color: rgb(39, 38, 38);
+}
+#list-item{
+    width: 35%;
+    height: 45%;
+    margin:2%;
+    margin-left: 30%;
+    overflow-y: scroll;
+}
+#list-item::-webkit-scrollbar{
+    display:none;
+}
+#contact-data{
+    background-color: aquamarine;
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+i{
+    color: red;
+}
+#add-new-contact{
+    display: none;
+}
+#create,#add{
+    height: 2rem;
+    background-color: black;
+    color: aqua;
+}
+
+#name,#phone{
+    height: 2rem;
+    border: none;
+    border-radius: 5%;
+}
+#header i{
+    color: black;
+}
